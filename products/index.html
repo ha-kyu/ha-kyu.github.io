@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products — Ha-Kyū</title>
+  <meta name="description" content="Ha-Kyūが開発・提供するサービス一覧。現在の主要プロダクト：オタタビ — 聖地巡礼・推し活スポットを地図から探して記録するアプリ。">
+  <link rel="canonical" href="https://ha-kyu.github.io/products/">
+
+  <!-- OGP -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://ha-kyu.github.io/products/">
+  <meta property="og:title"       content="Products — Ha-Kyū">
+  <meta property="og:description" content="Ha-Kyūが開発・提供するサービス一覧。現在の主要プロダクト：オタタビ。">
+  <meta property="og:image"       content="https://ha-kyu.github.io/assets/img/ogp.png">
+  <meta name="twitter:card"       content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon"             type="image/svg+xml" href="/assets/img/favicon.png">
+  <link rel="apple-touch-icon"                      href="/assets/img/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">メインコンテンツへスキップ</a>
+
+  <nav class="site-nav" aria-label="メインナビゲーション">
+    <div class="site-nav__inner">
+      <a href="/" class="site-nav__logo" aria-label="Ha-Kyū ホーム">Ha-Kyū</a>
+      <button class="site-nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="site-nav__menu" id="nav-menu" role="list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/products/">Products</a></li>
+        <li><a href="/support/">Support</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main" class="page-offset">
+
+    <!-- ページヘッダー -->
+    <header class="page-hero">
+      <p class="page-hero__label">Products</p>
+      <h1 class="page-hero__title">プロダクト</h1>
+      <p class="page-hero__desc">Ha-Kyūが開発・運営するサービスの一覧です。</p>
+    </header>
+
+    <!-- オタタビ -->
+    <section class="section" aria-labelledby="otatabi-heading">
+      <div class="container">
+
+        <article class="product-card">
+          <div class="product-card__info">
+            <span class="product-card__badge">iOS App</span>
+            <h2 class="product-card__title" id="otatabi-heading">オタタビ</h2>
+            <p class="product-card__desc">
+              アニメ・映画・ドラマなどの作品に関連する聖地や、推し活に関するスポットを地図から探し、実際に訪れた記録を残せるアプリ。好きな作品の世界を、自分の足で体験しよう。
+            </p>
+            <ul class="product-card__features" aria-label="主な機能">
+              <li>作品から聖地スポットを検索・地図表示</li>
+              <li>スポット詳細情報の確認</li>
+              <li>チェックイン機能（現地GPS確認）</li>
+              <li>訪問記録・作品別達成率の管理</li>
+              <li>聖地写真のアップロード</li>
+              <li>Google Mapsと連携したナビゲーション</li>
+              <li>アカウント登録・Google / Apple ログイン</li>
+            </ul>
+            <div style="display:flex; gap:0.75rem; flex-wrap:wrap;">
+              <!-- App Store リンクは公開後に設定してください -->
+              <span class="btn btn--outline" style="cursor:default; opacity:0.6;" aria-label="App Store（準備中）">
+                App Store（準備中）
+              </span>
+              <a href="/support/" class="btn btn--outline">サポート</a>
+            </div>
+          </div>
+
+          <div class="product-card__visual" aria-hidden="true">
+            <div class="product-card__icon-wrap">
+              <span class="app-icon">🗺️</span>
+              <span class="app-name">オタタビ</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 機能詳細 -->
+    <section class="section section--alt" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="section__header">
+          <p class="section__label">Features</p>
+          <h2 class="section__title" id="features-heading">主な機能</h2>
+        </div>
+        <div class="card-grid">
+          <div class="card">
+            <p class="card__icon" aria-hidden="true">🗺️</p>
+            <h3 class="card__title">聖地マップ</h3>
+            <p class="card__body">作品に関連する聖地スポットを地図上で確認。都道府県やジャンルでフィルタリングして探せます。</p>
+          </div>
+          <div class="card">
+            <p class="card__icon" aria-hidden="true">📍</p>
+            <h3 class="card__title">チェックイン</h3>
+            <p class="card__body">実際にスポットを訪れたらチェックイン。GPS位置確認で現地に来たことを記録します（200m以内で有効）。</p>
+          </div>
+          <div class="card">
+            <p class="card__icon" aria-hidden="true">📊</p>
+            <h3 class="card__title">達成率管理</h3>
+            <p class="card__body">作品ごとに何か所の聖地を訪れたか達成率で管理。全スポット制覇を目指そう。</p>
+          </div>
+          <div class="card">
+            <p class="card__icon" aria-hidden="true">📷</p>
+            <h3 class="card__title">写真アップロード</h3>
+            <p class="card__body">聖地で撮影した写真をスポットに紐づけてアップロード。思い出を記録に残せます。</p>
+          </div>
+          <div class="card">
+            <p class="card__icon" aria-hidden="true">🔔</p>
+            <h3 class="card__title">全聖地制覇通知</h3>
+            <p class="card__body">作品の全スポットを制覇すると通知でお知らせ。達成の喜びを逃しません。</p>
+          </div>
+          <div class="card">
+            <p class="card__icon" aria-hidden="true">📶</p>
+            <h3 class="card__title">オフライン対応</h3>
+            <p class="card__body">電波の届きにくい場所でもチェックインを記録。ネットワーク回復後に自動で同期します。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 将来の展望 -->
+    <section class="section" aria-labelledby="future-heading">
+      <div class="container container--narrow" style="text-align:center;">
+        <p class="section__label">Future</p>
+        <h2 class="section__title" id="future-heading">今後のプロダクト</h2>
+        <p class="section__subtitle">
+          Ha-Kyūはオタタビ以外にも、身近なアイデアから新しいサービスを開発していく予定です。新しいプロダクトの情報はこのページで随時公開します。
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" aria-label="サイトフッター">
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">
+        <h2>Ha-Kyū</h2>
+        <p>Create values. Let happiness ripple.</p>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <ul class="site-footer__nav" role="list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/products/">Products</a></li>
+          <li><a href="/support/">Support</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="site-footer__bottom">
+      <p>© 2025 Ha-Kyu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support — Ha-Kyū</title>
+  <meta name="description" content="オタタビのサポートページ。お問い合わせ方法・よくある質問・アカウント削除の手順を案内しています。">
+  <link rel="canonical" href="https://ha-kyu.github.io/support/">
+
+  <!-- OGP -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://ha-kyu.github.io/support/">
+  <meta property="og:title"       content="Support — Ha-Kyū">
+  <meta property="og:description" content="オタタビのサポートページ。お問い合わせ方法・よくある質問・アカウント削除の手順を案内しています。">
+  <meta property="og:image"       content="https://ha-kyu.github.io/assets/img/ogp.png">
+  <meta name="twitter:card"       content="summary_large_image">
+
+  <!-- Favicon -->
+  <link rel="icon"             type="image/svg+xml" href="/assets/img/favicon.png">
+  <link rel="apple-touch-icon"                      href="/assets/img/apple-touch-icon.png">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">メインコンテンツへスキップ</a>
+
+  <nav class="site-nav" aria-label="メインナビゲーション">
+    <div class="site-nav__inner">
+      <a href="/" class="site-nav__logo" aria-label="Ha-Kyū ホーム">Ha-Kyū</a>
+      <button class="site-nav__toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="メニューを開く">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="site-nav__menu" id="nav-menu" role="list">
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/products/">Products</a></li>
+        <li><a href="/support/">Support</a></li>
+        <li><a href="/terms/">Terms</a></li>
+        <li><a href="/privacy/">Privacy</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main" class="page-offset">
+
+    <!-- ページヘッダー -->
+    <header class="page-hero">
+      <p class="page-hero__label">Support</p>
+      <h1 class="page-hero__title">サポート</h1>
+      <p class="page-hero__desc">オタタビに関するご質問・お問い合わせはこちら。</p>
+    </header>
+
+    <!-- お問い合わせ -->
+    <section class="section" aria-labelledby="contact-heading">
+      <div class="container container--narrow">
+        <div class="section__header">
+          <p class="section__label">Contact</p>
+          <h2 class="section__title" id="contact-heading">お問い合わせ</h2>
+        </div>
+        <div class="contact-block">
+          <p class="contact-block__icon" aria-hidden="true">✉️</p>
+          <h3 class="contact-block__title">メールでお問い合わせ</h3>
+          <p class="contact-block__body">
+            アプリに関するご意見・ご要望・不具合のご報告、または作品追加の依頼は、アプリ内のお問い合わせ画面からご連絡ください。<br>
+            アプリを起動し、メニューから「お問い合わせ」を選ぶと、お使いのメールアプリが起動します。
+          </p>
+          <p style="font-size:0.85rem; color:var(--color-text-dim);">
+            ※ アプリがお手元にない場合は以下のメールアドレスへ直接ご連絡ください。<br>
+            <!-- 本番環境では実際のメールアドレスに変更してください -->
+            <a href="mailto:support@ha-kyu.example.com">support@ha-kyu.example.com</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section section--alt" aria-labelledby="faq-heading">
+      <div class="container container--narrow">
+        <div class="section__header">
+          <p class="section__label">FAQ</p>
+          <h2 class="section__title" id="faq-heading">よくある質問</h2>
+        </div>
+
+        <!-- アカウント -->
+        <h3 style="font-size:1rem; font-weight:600; color:var(--color-text-muted); margin-bottom:0.75rem; letter-spacing:0.05em; text-transform:uppercase; font-size:0.8rem;">アカウント</h3>
+        <div class="faq-list" style="margin-bottom:var(--space-md);">
+
+          <details class="faq-item">
+            <summary>どうやってアカウントを作成しますか？</summary>
+            <div class="faq-item__body">
+              <p>アプリを起動するとログイン画面が表示されます。以下の方法でアカウントを作成・ログインできます。</p>
+              <ul>
+                <li>メールアドレスとパスワードで新規登録</li>
+                <li>Googleアカウントでサインイン</li>
+                <li>Apple IDでサインイン（iOSのみ）</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>アカウントを削除するにはどうすればいいですか？</summary>
+            <div class="faq-item__body">
+              <p>アカウントを削除するには、以下の手順でお問い合わせください。</p>
+              <ol>
+                <li>アプリ内のお問い合わせ画面を開く</li>
+                <li>「アカウントの削除を希望する」旨をご連絡ください</li>
+                <li>ご登録のメールアドレスを明記してください</li>
+              </ol>
+              <p>削除処理完了後、ご連絡いたします。削除されるデータについては<a href="/privacy/">プライバシーポリシー</a>をご確認ください。</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>パスワードを忘れてしまいました。</summary>
+            <div class="faq-item__body">
+              <p>ログイン画面の「パスワードをお忘れですか？」からパスワードリセットのメールを送ることができます。登録時のメールアドレスを入力してください。</p>
+              <p>Googleアカウント・Apple IDでサインインしている場合は、それぞれのアカウント管理からパスワードをリセットしてください。</p>
+            </div>
+          </details>
+
+        </div>
+
+        <!-- チェックイン -->
+        <h3 style="font-size:0.8rem; font-weight:600; color:var(--color-text-muted); margin-bottom:0.75rem; letter-spacing:0.05em; text-transform:uppercase;">チェックイン</h3>
+        <div class="faq-list" style="margin-bottom:var(--space-md);">
+
+          <details class="faq-item">
+            <summary>チェックインができません。</summary>
+            <div class="faq-item__body">
+              <p>チェックインには以下の条件が必要です。</p>
+              <ul>
+                <li><strong>位置情報の許可</strong>：端末の設定でオタタビの位置情報利用を「アプリの使用中は許可」または「常に許可」にしてください。</li>
+                <li><strong>スポットから200m以内</strong>：実際にスポットの近くにいる必要があります。</li>
+                <li><strong>当日1回まで</strong>：同じスポットへの当日のチェックインは1回のみ有効です。</li>
+              </ul>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>チェックインしたのに記録されていません。</summary>
+            <div class="faq-item__body">
+              <p>チェックインはまずデバイス内に保存されます。サーバーへの同期はバックグラウンドで行われるため、ネットワーク状況によって反映に時間がかかることがあります。</p>
+              <p>しばらく時間をおいてアプリを再起動してもご確認いただけない場合は、お問い合わせください。</p>
+            </div>
+          </details>
+
+        </div>
+
+        <!-- 写真 -->
+        <h3 style="font-size:0.8rem; font-weight:600; color:var(--color-text-muted); margin-bottom:0.75rem; letter-spacing:0.05em; text-transform:uppercase;">写真</h3>
+        <div class="faq-list" style="margin-bottom:var(--space-md);">
+
+          <details class="faq-item">
+            <summary>写真をアップロードできません。</summary>
+            <div class="faq-item__body">
+              <p>写真のアップロードには以下の点をご確認ください。</p>
+              <ul>
+                <li>端末の設定でカメラ・フォトライブラリへのアクセスが許可されているか</li>
+                <li>ファイルサイズが10MB以下か</li>
+                <li>JPEG / PNG / HEIC いずれかのフォーマットか</li>
+                <li>ネットワークに接続されているか</li>
+              </ul>
+            </div>
+          </details>
+
+        </div>
+
+        <!-- プライバシー -->
+        <h3 style="font-size:0.8rem; font-weight:600; color:var(--color-text-muted); margin-bottom:0.75rem; letter-spacing:0.05em; text-transform:uppercase;">プライバシー</h3>
+        <div class="faq-list">
+
+          <details class="faq-item">
+            <summary>位置情報はどのように使われますか？</summary>
+            <div class="faq-item__body">
+              <p>位置情報はチェックイン機能でのみ使用しています。スポットから200m以内かどうかの判定と、チェックイン記録の保存に利用します。常時バックグラウンドで位置情報を取得することはありません。詳しくは<a href="/privacy/">プライバシーポリシー</a>をご覧ください。</p>
+            </div>
+          </details>
+
+          <details class="faq-item">
+            <summary>自分のデータを削除したい。</summary>
+            <div class="faq-item__body">
+              <p>アカウントを削除すると、サーバーに保存されたデータ（チェックイン記録・写真など）は削除されます。お問い合わせよりアカウント削除をご依頼ください。詳しくは<a href="/privacy/">プライバシーポリシー</a>のデータ削除の項目をご確認ください。</p>
+            </div>
+          </details>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 関連リンク -->
+    <section class="section" aria-labelledby="related-heading">
+      <div class="container container--narrow" style="text-align:center;">
+        <h2 class="section__title" id="related-heading" style="font-size:1.3rem;">関連ページ</h2>
+        <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap; margin-top:var(--space-md);">
+          <a href="/terms/"   class="btn btn--outline">利用規約</a>
+          <a href="/privacy/" class="btn btn--outline">プライバシーポリシー</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" aria-label="サイトフッター">
+    <div class="site-footer__inner">
+      <div class="site-footer__brand">
+        <h2>Ha-Kyū</h2>
+        <p>Create values. Let happiness ripple.</p>
+      </div>
+      <nav aria-label="フッターナビゲーション">
+        <ul class="site-footer__nav" role="list">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about/">About</a></li>
+          <li><a href="/products/">Products</a></li>
+          <li><a href="/support/">Support</a></li>
+          <li><a href="/terms/">Terms of Service</a></li>
+          <li><a href="/privacy/">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="site-footer__bottom">
+      <p>© 2025 Ha-Kyu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>
